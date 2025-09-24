@@ -1,21 +1,21 @@
 {
 	"nodes":[
+		{"id":"2f9cb97123817097","x":-340,"y":-1373,"width":420,"height":703,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Design Principles.md"},
+		{"id":"a86fdda6f5a0da50","type":"file","file":"Architecture/Microservices Architecture The Design Principle/What is a service.md","x":-2080,"y":-900,"width":365,"height":460},
 		{"id":"995687ca215e6ece","type":"text","text":"## Microservices Design Principles","x":-1110,"y":-360,"width":440,"height":80},
-		{"id":"6c0abbe109fc61bf","x":-1520,"y":-1500,"width":500,"height":940,"type":"text","text":"## Communication\n\nHow to guarantee that you can update data across the distributed architecture? \n\nBFF \n- backend from frontend API \n- focus point to communicate with the services \n\nAPI gateways\n- Another approach to provide  a central contact point between clients and services \n\nLoad Balancer \n- key component across microservices \n\nStateless \n- Doesn't keep any information about previous call in the service\n- doesn't keep the state of that call \n\nService Register \n- Keep a list of available microservices \n\nSynchronous\n - Basically the caller wait for a response  \n - Can cause an issue called **temporal coupling \n - Resiliency communication pattern can help \n\nAsynchronous \n - Need to use a message broker\n - A downstream service doesn't keep the flow of the process \n - Avoid having distributed transactions "},
-		{"id":"5dcff65c5951f183","type":"text","text":"## Microservices Architecture\n\nEach services encapsulated some part of a functionality and data ![[Microservices Architecture.png]]\n\nChallenging to communicate the client with the services ","x":-1940,"y":-1500,"width":380,"height":520},
-		{"id":"a08a5cd553193763","x":-980,"y":-1720,"width":427,"height":573,"type":"text","text":"## Monolith\n\nDisadvantages \n\n- Single application that keeps the front-end (Presentation layer) , business (Business Layer) and data access logic (Data Layer) together \n- When it grows in a wrong way, it could transform into a spaghetti code, high couple and hard to maintain and develop new features.\n- Its a risk to make experiments, if that experiment is not good in terms of performance, it can compromise the entire application.\n- The technology is fixed in the entire services, you cant use a new technology, for example.\n\nVentages\n- Easy to replicated the environment \n- Quick solution and prototyping"},
-		{"id":"c99b8e1d0433ebfd","type":"text","text":"## What is a service ?\n\nIn modern sense, it is an API, which is called over a HTTP calls \n\nProvide data and functionality \n\nInherit from style called service-oriented architecture,  which  uses a  Event Service Bus to connect the services. \n\nAnd the most of design principles applied to service-oriented architecture is used in microservices.\n\nScalability and reliability.","x":-2080,"y":-900,"width":365,"height":460},
-		{"id":"6f9a011486f739e5","x":-941,"y":-1030,"width":561,"height":353,"type":"text","text":"## Microservices\n\n- Respond quickly to a competition \n- Resiliency \n- Modular \n- Development to automation deploy and tests \n- Scale out \n- Asynchronous communication "},
-		{"id":"3101fea10dab3c17","x":-340,"y":-1373,"width":420,"height":703,"type":"text","text":"## Design Principles\n\n\n**Autonomous\n- Changes and bugs fix don´t affect upstream and downstream services\n\n**Domain-driven Cohesion \n- Each service specific part of business\n\n**Ownership Culture\n- Each service is a product with a team behind it \n\n**Resiliency  \n- Each service fails fast and alternates functionality  \n\n**Observability\n- Workflow and component health is visible and traceable \n\n**Automation \n - Tools for automated hosting, testing and deployment "},
-		{"id":"744bf4e5989d524a","type":"text","text":"  \n## Microservices Architecture: The Design Principle","x":-40,"y":40,"width":620,"height":50}
+		{"id":"744bf4e5989d524a","type":"text","text":"  \n## Microservices Architecture: The Design Principle","x":-40,"y":40,"width":620,"height":50},
+		{"id":"bbba2af6b44289bd","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Microservices Architecture.md","x":-2000,"y":-1580,"width":400,"height":559},
+		{"id":"9d61fd65a8b229d6","x":-1540,"y":-1580,"width":500,"height":940,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Communication.md"},
+		{"id":"4fc009cfe6df1ff3","x":-980,"y":-1720,"width":427,"height":573,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Monolith.md"},
+		{"id":"085667bad6f3f5b5","x":-941,"y":-1030,"width":561,"height":353,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Microservices.md"}
 	],
 	"edges":[
 		{"id":"88f9bfc03a8c5680","fromNode":"744bf4e5989d524a","fromSide":"top","toNode":"995687ca215e6ece","toSide":"bottom"},
-		{"id":"c838adaac4042142","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"c99b8e1d0433ebfd","toSide":"bottom"},
-		{"id":"87ab9df660afdd8c","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"6c0abbe109fc61bf","toSide":"bottom"},
-		{"id":"e27bee98d6253885","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"a08a5cd553193763","toSide":"bottom"},
-		{"id":"7da6e559d4702211","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"5dcff65c5951f183","toSide":"bottom"},
-		{"id":"b307ab386c51840b","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"6f9a011486f739e5","toSide":"bottom"},
-		{"id":"fe0f8f2e261f5518","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"3101fea10dab3c17","toSide":"bottom"}
+		{"id":"c838adaac4042142","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"a86fdda6f5a0da50","toSide":"bottom"},
+		{"id":"87ab9df660afdd8c","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"9d61fd65a8b229d6","toSide":"bottom"},
+		{"id":"e27bee98d6253885","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"4fc009cfe6df1ff3","toSide":"bottom"},
+		{"id":"7da6e559d4702211","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"bbba2af6b44289bd","toSide":"bottom"},
+		{"id":"b307ab386c51840b","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"085667bad6f3f5b5","toSide":"bottom"},
+		{"id":"fe0f8f2e261f5518","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"2f9cb97123817097","toSide":"bottom"}
 	]
 }

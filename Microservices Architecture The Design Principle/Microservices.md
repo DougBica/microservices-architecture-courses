@@ -1,0 +1,6 @@
+- Respond quickly to a competition 
+- Resiliency 
+- Modular 
+- Development to automation deploy and tests 
+- Scale out 
+- Asynchronous communication 
