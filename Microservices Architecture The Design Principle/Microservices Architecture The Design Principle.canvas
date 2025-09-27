@@ -1,13 +1,15 @@
 {
 	"nodes":[
-		{"id":"2f9cb97123817097","x":-340,"y":-1373,"width":420,"height":703,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Design Principles.md"},
+		{"id":"2f9cb97123817097","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Design Principles.md","x":-340,"y":-1373,"width":420,"height":703},
 		{"id":"a86fdda6f5a0da50","type":"file","file":"Architecture/Microservices Architecture The Design Principle/What is a service.md","x":-2080,"y":-900,"width":365,"height":460},
-		{"id":"995687ca215e6ece","type":"text","text":"## Microservices Design Principles","x":-1110,"y":-360,"width":440,"height":80},
-		{"id":"744bf4e5989d524a","type":"text","text":"  \n## Microservices Architecture: The Design Principle","x":-40,"y":40,"width":620,"height":50},
+		{"id":"995687ca215e6ece","type":"text","text":"## Microservices Design Principles","x":-1110,"y":-360,"width":450,"height":60},
+		{"id":"744bf4e5989d524a","type":"text","text":"  \n## Microservices Architecture: The Design Principle","x":-40,"y":20,"width":620,"height":70},
 		{"id":"bbba2af6b44289bd","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Microservices Architecture.md","x":-2000,"y":-1580,"width":400,"height":559},
-		{"id":"9d61fd65a8b229d6","x":-1540,"y":-1580,"width":500,"height":940,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Communication.md"},
-		{"id":"4fc009cfe6df1ff3","x":-980,"y":-1720,"width":427,"height":573,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Monolith.md"},
-		{"id":"085667bad6f3f5b5","x":-941,"y":-1030,"width":561,"height":353,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Microservices.md"}
+		{"id":"9d61fd65a8b229d6","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Communication.md","x":-1540,"y":-1580,"width":500,"height":940},
+		{"id":"4fc009cfe6df1ff3","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Monolith.md","x":-980,"y":-1720,"width":427,"height":573},
+		{"id":"085667bad6f3f5b5","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Microservices.md","x":-941,"y":-1030,"width":561,"height":353},
+		{"id":"98a60099691bc43f","type":"text","text":"## Approach to microservices Design Principes","x":640,"y":-385,"width":593,"height":50},
+		{"id":"f015eb4bb968c140","x":240,"y":-1280,"width":380,"height":440,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Autonomous.md"}
 	],
 	"edges":[
 		{"id":"88f9bfc03a8c5680","fromNode":"744bf4e5989d524a","fromSide":"top","toNode":"995687ca215e6ece","toSide":"bottom"},
@@ -16,6 +18,8 @@
 		{"id":"e27bee98d6253885","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"4fc009cfe6df1ff3","toSide":"bottom"},
 		{"id":"7da6e559d4702211","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"bbba2af6b44289bd","toSide":"bottom"},
 		{"id":"b307ab386c51840b","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"085667bad6f3f5b5","toSide":"bottom"},
-		{"id":"fe0f8f2e261f5518","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"2f9cb97123817097","toSide":"bottom"}
+		{"id":"fe0f8f2e261f5518","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"2f9cb97123817097","toSide":"bottom"},
+		{"id":"9f4b193ae711a732","fromNode":"744bf4e5989d524a","fromSide":"top","toNode":"98a60099691bc43f","toSide":"bottom"},
+		{"id":"4690a5aa6365c02c","fromNode":"98a60099691bc43f","fromSide":"top","toNode":"f015eb4bb968c140","toSide":"bottom"}
 	]
 }
