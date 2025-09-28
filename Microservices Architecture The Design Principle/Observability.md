@@ -1,0 +1,12 @@
+
+- Key for microservices 
+- Ability to see the health of our components 
+- Detailed information about timeout, exception and errors 
+- All the data that could be used to solve any problem in a distributed services 
+- Central logging system 
+- Structured logging 
+- Log level 
+- Correlation ID  - trace through services 
+- Central monitoring 
+- Health checks 
+- Real time alerts, proactively  react 

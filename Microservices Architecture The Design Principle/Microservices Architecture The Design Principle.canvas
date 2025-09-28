@@ -9,7 +9,11 @@
 		{"id":"4fc009cfe6df1ff3","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Monolith.md","x":-980,"y":-1720,"width":427,"height":573},
 		{"id":"085667bad6f3f5b5","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Microservices.md","x":-941,"y":-1030,"width":561,"height":353},
 		{"id":"98a60099691bc43f","type":"text","text":"## Approach to microservices Design Principes","x":640,"y":-385,"width":593,"height":50},
-		{"id":"f015eb4bb968c140","x":240,"y":-1280,"width":380,"height":440,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Autonomous.md"}
+		{"id":"f015eb4bb968c140","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Autonomous.md","x":270,"y":-1073,"width":380,"height":440},
+		{"id":"8c9df515a27a6152","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Domain-driven Cohesion.md","x":402,"y":-2050,"width":497,"height":868},
+		{"id":"abce48ee40c83071","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Resiliency.md","x":937,"y":-1973,"width":427,"height":1200},
+		{"id":"9c6e13b494c40101","x":1400,"y":-1720,"width":480,"height":441,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Observability.md"},
+		{"id":"10a3279a7d68e3f1","x":1640,"y":-1194,"width":360,"height":517,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Automation.md"}
 	],
 	"edges":[
 		{"id":"88f9bfc03a8c5680","fromNode":"744bf4e5989d524a","fromSide":"top","toNode":"995687ca215e6ece","toSide":"bottom"},
@@ -20,6 +24,10 @@
 		{"id":"b307ab386c51840b","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"085667bad6f3f5b5","toSide":"bottom"},
 		{"id":"fe0f8f2e261f5518","fromNode":"995687ca215e6ece","fromSide":"top","toNode":"2f9cb97123817097","toSide":"bottom"},
 		{"id":"9f4b193ae711a732","fromNode":"744bf4e5989d524a","fromSide":"top","toNode":"98a60099691bc43f","toSide":"bottom"},
-		{"id":"4690a5aa6365c02c","fromNode":"98a60099691bc43f","fromSide":"top","toNode":"f015eb4bb968c140","toSide":"bottom"}
+		{"id":"4690a5aa6365c02c","fromNode":"98a60099691bc43f","fromSide":"top","toNode":"f015eb4bb968c140","toSide":"bottom"},
+		{"id":"998fa7698ccea323","fromNode":"98a60099691bc43f","fromSide":"top","toNode":"8c9df515a27a6152","toSide":"bottom"},
+		{"id":"ee37ab50736cf6bc","fromNode":"98a60099691bc43f","fromSide":"top","toNode":"abce48ee40c83071","toSide":"bottom"},
+		{"id":"2f967fd96bbbe39f","fromNode":"98a60099691bc43f","fromSide":"top","toNode":"9c6e13b494c40101","toSide":"bottom"},
+		{"id":"54ec9c5d63d4e20f","fromNode":"98a60099691bc43f","fromSide":"top","toNode":"10a3279a7d68e3f1","toSide":"bottom"}
 	]
 }
