@@ -1,0 +1,11 @@
+
+- Messaging system 
+- Can give resilience and performance 
+- Fire and forget 
+- Decouple services from the client 
+- Message broker can be called as Service Bus, Message Bus or Event Bus 
+- Do retries, if a service couldn't process a message, it return to be processed by another 
+- Decoupling, put messages in the broker in fire and forget style 
+- Dead letter queue, messages that was impossible to process, to investigate in advance 
+- Event-Driven architecture 
+- Eventual Consistency 
