@@ -13,17 +13,22 @@
 		{"id":"abce48ee40c83071","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Resiliency.md","x":937,"y":-1973,"width":427,"height":1200},
 		{"id":"9c6e13b494c40101","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Observability.md","x":1400,"y":-1720,"width":480,"height":441},
 		{"id":"10a3279a7d68e3f1","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Automation.md","x":1640,"y":-1194,"width":360,"height":517},
-		{"id":"744bf4e5989d524a","type":"text","text":"  \n## Microservices Architecture: The Design Principle","x":627,"y":120,"width":620,"height":70},
-		{"id":"d5adc528d79c8aa5","type":"text","text":"## Technologies for Microservices","x":2720,"y":-410,"width":436,"height":50},
 		{"id":"9568dd37afcce868","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Load Balancers and Service Registry.md","x":2160,"y":-1146,"width":400,"height":421},
 		{"id":"a21319d968d62030","type":"file","file":"Architecture/Microservices Architecture The Design Principle/API Gateways and BFF APIs.md","x":2160,"y":-1745,"width":420,"height":472},
-		{"id":"a8d912f4c7416d33","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Synchronous communication.md","x":2580,"y":-1240,"width":428,"height":334},
-		{"id":"9d2b2a1040f7995e","type":"file","file":"Architecture/Microservices Architecture The Design Principle/API Styles for Microservices.md","x":2640,"y":-1780,"width":400,"height":400},
-		{"id":"f3d476854a286355","type":"file","file":"Architecture/Microservices Architecture The Design Principle/OpenAPI and API Catalogs.md","x":3100,"y":-1745,"width":380,"height":400},
-		{"id":"2d25f919ab67a972","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Resiliency Patterns.md","x":3080,"y":-1273,"width":400,"height":400},
-		{"id":"78045e92777a3ea9","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Asynchronous Communication.md","x":3520,"y":-1640,"width":400,"height":520},
-		{"id":"79a0da3a4dedb4fb","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Transaction Manager.md","x":3960,"y":-1665,"width":380,"height":640},
-		{"id":"c073451755c642a0","x":3600,"y":-973,"width":400,"height":400,"type":"file","file":"Eventual Consistency and Event-driven Architecture.md"}
+		{"id":"744bf4e5989d524a","type":"text","text":"  \n## Microservices Architecture: The Design Principle","x":640,"y":440,"width":620,"height":70},
+		{"id":"9d2b2a1040f7995e","type":"file","file":"Architecture/Microservices Architecture The Design Principle/API Styles for Microservices.md","x":2440,"y":-2320,"width":400,"height":400},
+		{"id":"a8d912f4c7416d33","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Synchronous communication.md","x":2652,"y":-1783,"width":428,"height":334},
+		{"id":"2d25f919ab67a972","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Resiliency Patterns.md","x":2720,"y":-1225,"width":400,"height":400},
+		{"id":"f3d476854a286355","type":"file","file":"Architecture/Microservices Architecture The Design Principle/OpenAPI and API Catalogs.md","x":2966,"y":-2250,"width":380,"height":400},
+		{"id":"78045e92777a3ea9","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Asynchronous Communication.md","x":3400,"y":-2250,"width":400,"height":520},
+		{"id":"c073451755c642a0","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Eventual Consistency and Event-driven Architecture.md","x":3500,"y":-973,"width":400,"height":400},
+		{"id":"79a0da3a4dedb4fb","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Transaction Manager.md","x":3156,"y":-1665,"width":380,"height":640},
+		{"id":"5a8a71a77194e664","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deployment Using virtual Machines.md","x":3600,"y":-1573,"width":400,"height":400},
+		{"id":"d780f582cf119941","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deploy using containers.md","x":3900,"y":-2120,"width":400,"height":400},
+		{"id":"f0247605a76e18de","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deployment Using Cloud.md","x":4400,"y":-1973,"width":400,"height":465},
+		{"id":"20d3852a24b4e313","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deployment Using virtual Machines.md","x":4100,"y":-1449,"width":400,"height":400},
+		{"id":"b9a5859ad3810cb8","x":4100,"y":-973,"width":400,"height":453,"type":"file","file":"Security.md"},
+		{"id":"d5adc528d79c8aa5","type":"text","text":"## Technologies for Microservices","x":3064,"y":-385,"width":436,"height":50}
 	],
 	"edges":[
 		{"id":"88f9bfc03a8c5680","fromNode":"744bf4e5989d524a","fromSide":"top","toNode":"995687ca215e6ece","toSide":"bottom"},
@@ -48,6 +53,11 @@
 		{"id":"e541e14ed85d7c52","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"f3d476854a286355","toSide":"bottom"},
 		{"id":"6f101dd4a5cd2814","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"78045e92777a3ea9","toSide":"bottom"},
 		{"id":"1b699173d005f130","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"79a0da3a4dedb4fb","toSide":"bottom"},
-		{"id":"519bd5d092d7ea7a","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"c073451755c642a0","toSide":"bottom"}
+		{"id":"519bd5d092d7ea7a","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"c073451755c642a0","toSide":"bottom"},
+		{"id":"8858b535f69b80a1","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"5a8a71a77194e664","toSide":"bottom"},
+		{"id":"387d269e6699a4c2","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"d780f582cf119941","toSide":"bottom"},
+		{"id":"2d8a3d3efb666d1f","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"f0247605a76e18de","toSide":"bottom"},
+		{"id":"7288481f453cbb0c","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"20d3852a24b4e313","toSide":"bottom"},
+		{"id":"6f2ac95c48324f28","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"b9a5859ad3810cb8","toSide":"bottom"}
 	]
 }
