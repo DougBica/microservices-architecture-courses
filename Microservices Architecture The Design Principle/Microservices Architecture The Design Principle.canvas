@@ -26,9 +26,12 @@
 		{"id":"5a8a71a77194e664","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deployment Using virtual Machines.md","x":3600,"y":-1573,"width":400,"height":400},
 		{"id":"d780f582cf119941","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deploy using containers.md","x":3900,"y":-2120,"width":400,"height":400},
 		{"id":"f0247605a76e18de","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deployment Using Cloud.md","x":4400,"y":-1973,"width":400,"height":465},
-		{"id":"20d3852a24b4e313","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deployment Using virtual Machines.md","x":4100,"y":-1449,"width":400,"height":400},
-		{"id":"b9a5859ad3810cb8","x":4100,"y":-973,"width":400,"height":453,"type":"file","file":"Security.md"},
-		{"id":"d5adc528d79c8aa5","type":"text","text":"## Technologies for Microservices","x":3064,"y":-385,"width":436,"height":50}
+		{"id":"20d3852a24b4e313","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Deployment Using virtual Machines.md","x":4100,"y":-1449,"width":400,"height":303},
+		{"id":"d5adc528d79c8aa5","type":"text","text":"## Technologies for Microservices","x":3064,"y":-385,"width":436,"height":50},
+		{"id":"ba2e196e9860ad9d","x":4640,"y":-920,"width":360,"height":347,"type":"file","file":"Architecture/Microservices Architecture The Design Principle/Central Monitoring.md"},
+		{"id":"e819e9d560e443f5","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Automation Tools and Patterns.md","x":4920,"y":-2245,"width":480,"height":672},
+		{"id":"b9a5859ad3810cb8","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Security.md","x":4100,"y":-1026,"width":400,"height":453},
+		{"id":"070eeb8b28afafca","type":"file","file":"Architecture/Microservices Architecture The Design Principle/Central Logging.md","x":4640,"y":-1445,"width":400,"height":345}
 	],
 	"edges":[
 		{"id":"88f9bfc03a8c5680","fromNode":"744bf4e5989d524a","fromSide":"top","toNode":"995687ca215e6ece","toSide":"bottom"},
@@ -58,6 +61,9 @@
 		{"id":"387d269e6699a4c2","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"d780f582cf119941","toSide":"bottom"},
 		{"id":"2d8a3d3efb666d1f","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"f0247605a76e18de","toSide":"bottom"},
 		{"id":"7288481f453cbb0c","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"20d3852a24b4e313","toSide":"bottom"},
-		{"id":"6f2ac95c48324f28","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"b9a5859ad3810cb8","toSide":"bottom"}
+		{"id":"6f2ac95c48324f28","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"b9a5859ad3810cb8","toSide":"bottom"},
+		{"id":"1e0e5c98e3eac24a","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"070eeb8b28afafca","toSide":"bottom"},
+		{"id":"5f5f2c040449f5fc","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"e819e9d560e443f5","toSide":"bottom"},
+		{"id":"784e59c94a629700","fromNode":"d5adc528d79c8aa5","fromSide":"top","toNode":"ba2e196e9860ad9d","toSide":"bottom"}
 	]
 }
